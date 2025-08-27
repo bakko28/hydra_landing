@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4762FF;
+  border-radius: 20px;
+  border: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -25,6 +35,7 @@ body {
     width: 100vw;
     height: auto;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 header {
@@ -143,4 +154,65 @@ main .block1 .text-box .second-text {
     font-size: 18px;
 }
 
+main .block2 .text-box .first-text{
+    color: #333;
+    line-height: 76px;
+    font-weight: 700;
+    font-size: 40px;
+}
 
+main .block2 .text-box .second-text {
+    width: 65%;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.8);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+main .block2 .card-box {
+    padding: 0px 200px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 36px;
+    row-gap: 32px;
+    justify-content: center;
+    grid-auto-flow: row;
+}
+
+main .block2 .card-box .card {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    align-items: start;
+    justify-content: start;
+    padding: 26px 28px;
+    border-radius: 8px;
+    background-color: #F4F6FA;
+}
+
+main .block2 .card-box .card img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    mix-blend-mode: multiply;
+}
+
+main .block2 .card-box .card .text-box {
+    width: 50%;
+    gap: 16px;
+}
+
+main .block2 .card-box .card .text-box .first-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+main .block2 .text-box .second-text {
+    text-align: start;
+    color: rgba(51, 51, 51, 0.8);
+    font-weight: 400;
+    font-size: 16px;
+}
