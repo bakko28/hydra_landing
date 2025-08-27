@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.flex { display: flex; }
+.flex-center { justify-content: center; align-items: center; }
+.flex-col { flex-direction: column; }
+
+body {
+    font-family: "Inter", sans-serif;
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+}
+
+header {
+    padding: 0px 165px;
+    width: 100%;
+    -webkit-box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.03);
+    /* border: 2px red solid; */
+}
+
+header .header-top {
+    padding: 17px 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-top .left-box span {
+    margin: 0px 19px 0px 45px; 
+    width: 2px;
+    height: auto;
+    background-color: rgba(51, 51, 51, 0.1);
+}
+
+header .header-top .left-box .address-box,
+header .header-top .left-box .grafic-box,
+header .header-top .right-box .phone-box {
+    align-items: start;
+    gap: 8px;
+}
+
+header .header-top .left-box .address-box img, 
+header .header-top .left-box .grafic-box img,
+header .header-top .right-box .phone-box img {
+    width: 20px;
+}
+
+header .header-top .left-box .address-box .text-box,
+header .header-top .left-box .grafic-box .text-box,
+header .header-top .right-box .phone-box .text-box {
+    gap: 4px;
+}
+
+header .header-top .left-box .address-box p,
+header .header-top .left-box .grafic-box p,
+header .header-top .right-box .phone-box p {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+header span {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(51, 51, 51, 0.1);
+}
+
+header .header-bottom {
+    padding: 18px 0px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-bottom nav {
+    gap: 46px;
+}
+
+header .header-bottom nav a {
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header .header-bottom  button {
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4762FF;
+    border-radius: 6px;
+}
+
+main {
+    width: 100vw;
+    height: auto;
+}
+
+main .block1 {
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0px 0px 165px;
+    width: 100%;
+}
+
+main .block1 button {
+    padding: 12px 38px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4762FF;
+    border-radius: 8px;
+}
+
+main .block1 .text-box .first-text {
+    color: #333;
+    line-height: 76px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+main .block1 .text-box .second-text {
+    color: rgba(51, 51, 51, 0.8);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
